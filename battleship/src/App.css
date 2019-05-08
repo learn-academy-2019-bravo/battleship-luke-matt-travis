@@ -1,0 +1,26 @@
+#mainBox {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 10px;
+    height: 50px;
+    width: 50px;
+    border: 5px double black;
+    border-radius:  10px;
+    background-color: #0044cc;
+}
+
+#mainBoard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 10px solid black;
+    border-radius: 10px;
+    height: 600px;
+    width: 600px;
+    background-color: pink;
+}
